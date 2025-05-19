@@ -45,10 +45,15 @@ class CustomTextField extends StatelessWidget {
           borderSide: const BorderSide(color: Colors.black),
           borderRadius: BorderRadius.circular(8),
         ),
+        enabledBorder: OutlineInputBorder(
+          borderSide: BorderSide(color: Colors.black),
+          borderRadius: BorderRadius.circular(8),
+        ),
+
         contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
         suffixIcon: suffixIcon,
       ),
-      style: const TextStyle(color: Colors.black87),
+      style: const TextStyle(color: Colors.black),
     );
   }
 }
