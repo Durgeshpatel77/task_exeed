@@ -38,7 +38,9 @@ dependencies:
   get_storage: ^2.1.1
   shared_preferences: ^2.5.3
   intl: ^0.20.2
-
+  flutter_barcode_scanner:
+    git:
+      url: https://github.com/Durgeshpatel77/flutter_barcode_scanner
 dev_dependencies:
   flutter_test:
     sdk: flutter
