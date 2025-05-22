@@ -6,6 +6,7 @@ import '4_Waybill Simulation.dart/Waybill_Screen.dart';
 import '5_Barcode Scanning Integration/Barcode_FormPage.dart';
 import '5_Barcode Scanning Integration/Barcode_ScannerPage.dart';
 import '6_Camera Image Capture/CameraImageCapture_Page.dart';
+import '7_Form with Barcode_Image Upload/form_page.dart';
 import 'Login_Logout pages/login_page.dart';
 
 void main() {
@@ -26,7 +27,8 @@ class MyApp extends StatelessWidget {
      // home: SearchableTable (),//3
      // home: WaybillScreen (),//4
      // home: BarcodeFormPage(),//5
-       home: CameraImageCapturePage(),//6
+     // home: CameraImageCapturePage(),//6
+      home: FormPage(),  // 7
 
 
     );
